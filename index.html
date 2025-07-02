@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vinay Dinesh Bodalkar | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background: linear-gradient(120deg, #e0f7fa, #ffffff);
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #004d99, #006699);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      animation: fadeInDown 1s ease-in-out;
+    }
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 36px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 960px;
+      margin: auto;
+      animation: fadeIn 1.5s ease-in;
+    }
+    h2 {
+      color: #003366;
+      border-bottom: 2px solid #0077b6;
+      padding-bottom: 5px;
+      margin-top: 40px;
+      animation: fadeInUp 1s ease-in;
+    }
+    .project, .experience, .education {
+      margin-bottom: 20px;
+    }
+    ul li {
+      margin-bottom: 5px;
+    }
+    footer {
+      background-color: #004d99;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      animation: fadeIn 2s ease-in;
+    }
+    a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .resume-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #0077b6;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .resume-button:hover {
+      background-color: #005f87;
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vinay Dinesh Bodalkar</h1>
+    <p>Analog VLSI | Circuit Design | Embedded Systems</p>
+    <p>Email: vinaybodalkar2@gmail.com | Phone: +91 93599 51185</p>
+    <p><a href="https://www.linkedin.com/in/vinay-bodalkar-73a004217/" target="_blank" style="color:#ffcc00">LinkedIn Profile</a></p>
+    <a class="resume-button" href="Vinay_Bodalkar_Resume.pdf" download>Download Resume (PDF)</a>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>B.Tech graduate in Electronics & Communication Engineering (Avionics) from IIST with hands-on experience in Analog VLSI design, circuit simulation, and system-level design using tools like Cadence Virtuoso, MATLAB, Python, and ANSYS STK. Currently working as a Technical Associate at Antrix Corporation Limited in Bengaluru, contributing to advanced satellite and aerospace systems.</p>
+
+    <h2>Education</h2>
+    <div class="education">
+      <p><strong>B.Tech – Electronics & Communication Engineering (Avionics)</strong><br>Indian Institute of Space Science and Technology, 2020 – 2024<br>CPI: 6.51</p>
+    </div>
+
+    <h2>Experience</h2>
+    <div class="experience">
+      <p><strong>Antrix Corporation Limited</strong><br>Technical Associate | Bengaluru | June 2025 – Present<br>Working on advanced electronics subsystems for satellite and space applications. Involved in testing, simulation, documentation, and use of tools like ANSYS STK for space mission analysis and aerospace-grade systems.</p>
+
+      <p><strong>Space Applications Center, ISRO – Ahmedabad</strong><br>Analog VLSI Intern | Jan 2024 – May 2024<br>Designed a 12-bit SAR ADC and CIC filter using Cadence Virtuoso and MATLAB.</p>
+
+      <p><strong>Analog VLSI Intern</strong><br>June 2023 – July 2023<br>Designed an OpAmp-based bandpass filter using Cadence Virtuoso.</p>
+    </div>
+
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>C/C++, Python, MATLAB, Verilog</li>
+      <li>Cadence Virtuoso, Simulink, LTSpice, KiCad, LabView, ADS, ANSYS STK</li>
+      <li>OpenCV, NumPy, Pandas</li>
+      <li>Analog VLSI Design, Computer Vision, Image Processing</li>
+    </ul>
+
+    <h2>Projects</h2>
+    <div class="project">
+      <p><strong>System-Level Simulation of RFSoC for High-Speed ADC</strong><br>Simulated a 12-bit SAR ADC and CIC filter to optimize RF data acquisition systems using MATLAB and Simulink.</p>
+      <p><strong>Complex Bandpass Filter Design Using OpAmp</strong><br>Designed a high-order bandpass filter using a custom OpAmp and validated its frequency response in Cadence Virtuoso.</p>
+      <p><strong>IoT Devices with Binarized Neural Network (BNN)</strong><br>Developed an edge-efficient processor based on BNN for high-speed performance and low power consumption in IoT systems.</p>
+      <p><strong>Real-Time Sign Language Detection</strong><br>Built a gesture recognition system using YOLOv5 and OpenCV to interpret Indian sign language in real time.</p>
+      <p><strong>Internet-Enabled TWS Earphones</strong><br>Conceptualized and prototyped smart TWS earphones with GPS, media streaming, and touch UI independent of smartphones.</p>
+    </div>
+
+    <h2>Achievements</h2>
+    <ul>
+      <li>Cleared JEE Advanced – 2020</li>
+      <li>Nagpur City Topper – International Mathematics Olympiad (Class 9)</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vinay Dinesh Bodalkar. All rights reserved.</p>
+  </footer>
+</body>
+</html>
